@@ -1,0 +1,180 @@
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: darkgrey;
+  padding: 10px 20px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  height: 50px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.header-title {
+  color: white;
+  font-size: 24px;
+  margin: 0 0 0 10px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-welcome {
+  color: #75f593;
+  font-size: 16px;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.header-button {
+  font-size: 16px;
+  font-weight:bold ;
+  padding: 5px 10px;
+  background-color:darkmagenta ; 
+  color: #fff; 
+  border: none; 
+  border-radius: 4px; 
+}
+
+.navBar {
+  background-color:darkgrey ;
+  width: 100%;
+  height: 20%
+}
+
+.navBar ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.navBar li {
+  margin: 0 10px;
+}
+
+.navBar a {
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 5px;
+  
+}
+
+.navBar a:hover {
+  background-color: darkmagenta;
+}
+
+.product-Img {
+  width: 200px;
+  height: 230px;
+  border-radius: 0%;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.LandingPage {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.LandingPage-heading {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+
+.LandingPage-heading-content {
+  max-width: 100%; 
+}
+
+h2 {
+  color: darkmagenta;
+  font-size: 3rem; 
+}
+
+p {
+  color: darkmagenta;
+  font-size: 1.5rem;
+}
+
+.calculator-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  color: darkmagenta;
+}
+
+.paymentTotal, .monthlyPaymentTotal {
+  color: darkmagenta;
+}
+
+.legal-content, .profile-content, .Products {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.legal-content ul {
+  margin-top: 20px;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.legal-content li {
+  color: darkmagenta;
+  margin-bottom: 5px;
+}
+
+.Products h3{
+  color: darkmagenta;
+}
+
+/*Note to reviewer:
+I used a lot of online sources and my CSS book to help 
+me get the desired look and did a LOT of trial and error
+to get things working. 
+One issue I could not seem to solve was the issue of wanting
+a background image on my landing page to have a faded look so
+that I could display the text on top of it. For this I had to 
+use a lot of trial and error and the following sources:
+https://reactjs.org/docs/dom-elements.html#style
+https://www.w3schools.com/css/css_positioning.asp
+https://developer.mozilla.org/en-US/docs/Web/CSS/position
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://developer.mozilla.org/en-US/docs/Web/CSS/background-image
+https://www.w3schools.com/cssref/pr_background-image.php
+*/
+
